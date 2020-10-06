@@ -1,14 +1,14 @@
 <template>
-  <div class="withName">
-    <p>And here the id: {{$route.params.otherid}}</p>
-    <p>And here the name: {{$route.params.name}}</p>
+  <div class="Products">
+    <nuxt-link to='/products/1/'>Product 1</nuxt-link>
+    <nuxt-link to='/products/2/'>Product 2</nuxt-link>
   </div>
 </template>
 
 <script>
 // import  from "@/components/"
 export default {
-  name: 'withName',
+  name: 'Products',
   props: {
 
   },
@@ -23,7 +23,6 @@ export default {
   methods: {
 
   },
-  layout:'default',
   // created() {
   //
   // },

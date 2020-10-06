@@ -7,48 +7,10 @@
 <script>
 // import  from "@/components/"
 export default {
-  name: 'otherID',
-  props: {
-
-  },
-  components: {
-
-  },
-  data() {
-    return {
-
-    }
-  },
-  methods: {
-
-  },
-  // created() {
-  //
-  // },
-  // computed: {
-  //
-  // },
-  // destroyed() {
-  //
-  // },
-  // deactivated() {
-  //
-  // },
-  // activated() {
-  //
-  // },
-  // beforeRouteEnter(to, from, next) {
-  //
-  //   return next(vm => {
-  //
-  //     });
-  // },
-  // beforeRouteUpdate (to, from, next) {
-  // next();
-  // },
-  // beforeRouteLeave (to, from, next) {
-  // next();
-  // }
+  validate(data) {
+    console.log(data);
+    return !isNaN(data.params.otherid)
+  }
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="Users">
-    This is the Users page
+    <p>Please enter an ID</p>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   name: 'Users',
   props: {
-    
+
   },
   components: {
 

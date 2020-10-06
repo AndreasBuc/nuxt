@@ -1,14 +1,13 @@
 <template>
-  <div class="withName">
-    <p>And here the id: {{$route.params.otherid}}</p>
-    <p>And here the name: {{$route.params.name}}</p>
+  <div class="prod">
+    This is Product: {{$route.params.pid}}
   </div>
 </template>
 
 <script>
 // import  from "@/components/"
 export default {
-  name: 'withName',
+  name: 'prod',
   props: {
 
   },
@@ -23,7 +22,6 @@ export default {
   methods: {
 
   },
-  layout:'default',
   // created() {
   //
   // },

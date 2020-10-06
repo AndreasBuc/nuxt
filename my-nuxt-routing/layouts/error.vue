@@ -1,14 +1,14 @@
 <template>
-  <div class="withName">
-    <p>And here the id: {{$route.params.otherid}}</p>
-    <p>And here the name: {{$route.params.name}}</p>
+  <div class="Error">
+    <p>An Error occured</p>
+    <p>{{error}}</p>
   </div>
 </template>
 
 <script>
 // import  from "@/components/"
 export default {
-  name: 'withName',
+  name: 'Error',
   props: {
 
   },
@@ -23,7 +23,6 @@ export default {
   methods: {
 
   },
-  layout:'default',
   // created() {
   //
   // },
@@ -50,7 +49,8 @@ export default {
   // },
   // beforeRouteLeave (to, from, next) {
   // next();
-  // }
+  // },
+  // layout: ,
 }
 </script>
 
